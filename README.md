@@ -103,18 +103,18 @@ Select option `4` to remove files from Google Drive
 
 ```
 VideoUploader/
-??? Program.cs                      # Main entry point with interactive menu
-??? EncryptionService.cs            # AES-256 encryption/decryption
-??? CompressionService.cs           # ZIP compression/decompression
-??? GoogleDriveService.cs           # Google Drive API integration
-??? VideoProcessingPipeline.cs      # Complete upload/download workflow
-??? credentials.json                # Google API credentials (add this)
-??? VideoUploader.csproj            # Project configuration
+1- Program.cs                      # Main entry point with interactive menu
+2- EncryptionService.cs            # AES-256 encryption/decryption
+3- CompressionService.cs           # ZIP compression/decompression
+4- GoogleDriveService.cs           # Google Drive API integration
+5- VideoProcessingPipeline.cs      # Complete upload/download workflow
+6- credentials.json                # Google API credentials (add this)
+7- VideoUploader.csproj            # Project configuration
 ```
 
 ## Security Notes
 
-?? **Important Security Considerations:**
+**Important Security Considerations:**
 
 - **Encryption keys are stored locally** - Keep them safe! Without the key, encrypted videos cannot be decrypted
 - Videos are encrypted with **AES-256** which is industry-standard encryption
