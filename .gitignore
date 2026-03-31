@@ -1,0 +1,40 @@
+# Important: Add your Google Drive API credentials file here
+# Download from: https://console.cloud.google.com/
+# File should be named: credentials.json
+
+# Temporary files
+bin/
+obj/
+*.key
+*.enc
+*.zip
+.vs/
+
+# User-specific files
+*.user
+*.suo
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+
+# Encryption keys (security)
+*.key
+
+# Temporary encrypted/compressed files
+*.enc
+*_compressed_*.zip
+*_encrypted_*.enc
+downloaded_*.enc
+decrypted_*.zip
