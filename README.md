@@ -1,4 +1,4 @@
-# Video Uploader POC
+# Google Drive Uploader POC
 
 A Proof of Concept application demonstrating secure video upload and download to Google Drive with encryption and compression.
 
