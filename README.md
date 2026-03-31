@@ -4,17 +4,17 @@ A Proof of Concept application demonstrating secure video upload and download to
 
 ## Features
 
-? **AES-256 Encryption** - Videos are encrypted before upload and travel over the network in encrypted form  
-? **ZIP Compression** - Videos are compressed to reduce size before encryption  
-? **Secure Storage** - Videos stored on Google Drive remain encrypted  
-? **Automatic Decryption** - Downloaded videos are automatically decrypted and decompressed  
-? **Key Management** - Encryption keys are generated and saved locally for security  
+> **AES-256 Encryption** - Videos are encrypted before upload and travel over the network in encrypted form  
+> **ZIP Compression** - Videos are compressed to reduce size before encryption  
+> **Secure Storage** - Videos stored on Google Drive remain encrypted  
+> **Automatic Decryption** - Downloaded videos are automatically decrypted and decompressed  
+> **Key Management** - Encryption keys are generated and saved locally for security  
 
 ## Security Flow
 
 ```
-Upload: Video ? Compress (ZIP) ? Encrypt (AES-256) ? Upload to Google Drive
-Download: Download from Google Drive ? Decrypt (AES-256) ? Decompress ? Original Video
+Upload: Video > Compress (ZIP) > Encrypt (AES-256) > Upload to Google Drive
+Download: Download from Google Drive > Decrypt (AES-256) > Decompress > Original Video
 ```
 
 ## Prerequisites
